@@ -1,0 +1,44 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+    padding: 0 10px; /* Adjust padding to create space between content */
+  }
+  
+  .dash {
+    height: 5px;
+    width: 50px;
+    background-color: chocolate;
+    margin: 0 5px; /* Adjust margin to create space between dashes */
+  }
+  
+  .word {
+    /* display:none; */
+    font-size: 50px; /* Adjust the font size value as desired */
+    font-weight: 200;
+    color: crimson;
+    margin: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  @media (max-width: 768px) {
+    /* Media query for smaller devices */
+    .dash {
+      width: 20px; /* Adjust width for smaller devices */
+      margin: 0 2px; /* Adjust margin for smaller devices */
+    }
+    .word {
+      font-size: 40px; /* Adjust the font size for smaller devices */
+      margin: 0 2px; /* Adjust margin for smaller devices */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Media query for extra small devices */
+    .word {
+      font-size: 30px; /* Adjust the font size for extra small devices */
+      margin: 0 1px; /* Adjust margin for extra small devices */
+    }
+  }
+  

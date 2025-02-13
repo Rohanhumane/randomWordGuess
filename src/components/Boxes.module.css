@@ -1,0 +1,40 @@
+.box {
+    height: 40px; /* Adjust the height as desired */
+    width: 40px; /* Adjust the width as desired */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+  }
+  
+  .container {
+    /* margin-top: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjust the height as desired */
+  }
+  
+  @media (max-width: 576px) {
+    /* Extra small devices (phones) */
+    .box {
+      height: 30px; /* Adjust the height for extra small devices */
+      width: 30px; /* Adjust the width for extra small devices */
+    }
+  
+    .container {
+      height: 75vh; /* Adjust the height for extra small devices */
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Small devices (tablets) */
+    .box {
+      height: 35px; /* Adjust the height for small devices */
+      width: 35px; /* Adjust the width for small devices */
+    }
+  
+    .container {
+      height: 70vh; /* Adjust the height for small devices */
+    }
+  }
