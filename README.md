@@ -31,13 +31,9 @@ This is a **React TypeScript** application that allows users to guess a randomly
 ```sh
 cd your-repo
 ```
-
-3.
 ```sh
 npm install
 ```
-
-4.
 ```sh
 npm start
 ```
